@@ -1,3 +1,3 @@
 
-add_library(submodule_dep_1 submodule_dep_1.cpp)
-target_include_directories(submodule_dep_1 PUBLIC "./")
+add_library(external_dep_1 external_dep_1.cpp)
+target_include_directories(external_dep_1 PUBLIC "./")
